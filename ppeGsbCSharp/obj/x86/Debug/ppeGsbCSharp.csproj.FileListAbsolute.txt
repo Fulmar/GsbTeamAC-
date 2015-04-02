@@ -48,3 +48,12 @@ C:\Users\Florent\Desktop\Travail\Tp programmation\GSB\ApplicationGSBGIT\gsbTeamA
 C:\Users\Florent\Desktop\Travail\Tp programmation\GSB\ApplicationGSBGIT\gsbTeamAbackOffice\ppeGsbCSharp\bin\Debug\ppeGsbCSharp.pdb
 C:\Users\Florent\Desktop\Travail\Tp programmation\GSB\ApplicationGSBGIT\gsbTeamAbackOffice\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.exe
 C:\Users\Florent\Desktop\Travail\Tp programmation\GSB\ApplicationGSBGIT\gsbTeamAbackOffice\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.pdb
+C:\Users\Grégoire\Downloads\GsbTeamAC--master\GsbTeamAC--master\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.exe
+C:\Users\Grégoire\Downloads\GsbTeamAC--master\GsbTeamAC--master\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.pdb
+C:\Users\Grégoire\Downloads\GsbTeamAC--master\GsbTeamAC--master\ppeGsbCSharp\bin\Debug\ppeGsbCSharp.exe
+C:\Users\Grégoire\Downloads\GsbTeamAC--master\GsbTeamAC--master\ppeGsbCSharp\bin\Debug\ppeGsbCSharp.pdb
+C:\Users\Grégoire\Downloads\GsbTeamAC--master\GsbTeamAC--master\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.csprojResolveAssemblyReference.cache
+C:\Users\Grégoire\Downloads\GsbTeamAC--master\GsbTeamAC--master\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.formCreerClient.resources
+C:\Users\Grégoire\Downloads\GsbTeamAC--master\GsbTeamAC--master\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.FormGsb.resources
+C:\Users\Grégoire\Downloads\GsbTeamAC--master\GsbTeamAC--master\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.Properties.Resources.resources
+C:\Users\Grégoire\Downloads\GsbTeamAC--master\GsbTeamAC--master\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.csproj.GenerateResource.Cache
