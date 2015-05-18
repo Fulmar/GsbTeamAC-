@@ -199,5 +199,23 @@ namespace ppeGsbCSharp
 
             return toutesLesProfessions;
         }
+
+        public void ajouterVisite(int unIdClient, String uneDate, String unCompteRendu, String unCreateur)
+        {
+            try
+            {
+                String requete = "INSERT INTO dbo.visite(idPersonne, date, createur, compterendu) VALUES(" + unIdClient + ", " + uneDate + ", " + unCreateur + ", " + unCompteRendu + "); ";
+                daoFactory monDaoFactory = new daoFactory();
+                monDaoFactory.OuvrirConnexion();
+                SqlCommand maSqlCommand = new SqlCommand(requete, monDaoFactory.connexionBDD);
+                maSqlCommand.ExecuteReader();
+            }
+            catch (SqlException exe)
+            {
+                MessageBox.Show("Erreur rencontrée lors de l'ajout d'une visite : " + exe.ToString());
+            }
+        
+        
+        }
     }
 }

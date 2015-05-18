@@ -148,7 +148,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.CbxClientCommandeAjout = new System.Windows.Forms.ComboBox();
             this.BtnAjoutCommande = new System.Windows.Forms.Button();
-            this.BtnSupProduitCommandeListe = new System.Windows.Forms.Button();
             this.tabMenuPrincipal.SuspendLayout();
             this.tabAccueil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -1199,7 +1198,6 @@
             // 
             // grbCommandeAjoutProduit
             // 
-            this.grbCommandeAjoutProduit.Controls.Add(this.BtnSupProduitCommandeListe);
             this.grbCommandeAjoutProduit.Controls.Add(this.btnAjoutCommandeLigneProduit);
             this.grbCommandeAjoutProduit.Controls.Add(this.CbxProduitCommande);
             this.grbCommandeAjoutProduit.Controls.Add(this.label3);
@@ -1323,16 +1321,6 @@
             this.BtnAjoutCommande.Text = "Ajouter Commande";
             this.BtnAjoutCommande.UseVisualStyleBackColor = true;
             this.BtnAjoutCommande.Click += new System.EventHandler(this.BtnAjoutCommande_Click_1);
-            // 
-            // BtnSupProduitCommandeListe
-            // 
-            this.BtnSupProduitCommandeListe.Location = new System.Drawing.Point(354, 69);
-            this.BtnSupProduitCommandeListe.Name = "BtnSupProduitCommandeListe";
-            this.BtnSupProduitCommandeListe.Size = new System.Drawing.Size(75, 23);
-            this.BtnSupProduitCommandeListe.TabIndex = 19;
-            this.BtnSupProduitCommandeListe.Text = "button1";
-            this.BtnSupProduitCommandeListe.UseVisualStyleBackColor = true;
-            this.BtnSupProduitCommandeListe.Click += new System.EventHandler(this.BtnSupProduitCommandeListe_Click);
             // 
             // FormGsb
             // 
@@ -1506,7 +1494,6 @@
         private System.Windows.Forms.Label lblTitreAppli;
         private System.Windows.Forms.Label lblDescriptionAppli;
         private System.Windows.Forms.Label lblNomsTeam;
-        private System.Windows.Forms.Button BtnSupProduitCommandeListe;
     }
 }
 
