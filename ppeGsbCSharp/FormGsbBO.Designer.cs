@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGsb));
             this.tabMenuPrincipal = new System.Windows.Forms.TabControl();
             this.tabAccueil = new System.Windows.Forms.TabPage();
+            this.lblNomsMembresTeamA = new System.Windows.Forms.Label();
+            this.lblTitreAppli = new System.Windows.Forms.Label();
+            this.lblDescriptionAppli = new System.Windows.Forms.Label();
+            this.lblNomsTeam = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabProduits = new System.Windows.Forms.TabPage();
             this.tabMenuProduits = new System.Windows.Forms.TabControl();
@@ -145,11 +148,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.CbxClientCommandeAjout = new System.Windows.Forms.ComboBox();
             this.BtnAjoutCommande = new System.Windows.Forms.Button();
-            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.lblNomsTeam = new System.Windows.Forms.Label();
-            this.lblDescriptionAppli = new System.Windows.Forms.Label();
-            this.lblTitreAppli = new System.Windows.Forms.Label();
-            this.lblNomsMembresTeamA = new System.Windows.Forms.Label();
+            this.BtnSupProduitCommandeListe = new System.Windows.Forms.Button();
             this.tabMenuPrincipal.SuspendLayout();
             this.tabAccueil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -176,7 +175,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.DgvCommandeLesProduitAjouter)).BeginInit();
             this.grbCommandeAjoutProduit.SuspendLayout();
             this.GrbCommandeAjout.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabMenuPrincipal
@@ -205,6 +203,46 @@
             this.tabAccueil.TabIndex = 0;
             this.tabAccueil.Text = "Accueil";
             this.tabAccueil.UseVisualStyleBackColor = true;
+            // 
+            // lblNomsMembresTeamA
+            // 
+            this.lblNomsMembresTeamA.AutoSize = true;
+            this.lblNomsMembresTeamA.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomsMembresTeamA.Location = new System.Drawing.Point(536, 438);
+            this.lblNomsMembresTeamA.Name = "lblNomsMembresTeamA";
+            this.lblNomsMembresTeamA.Size = new System.Drawing.Size(300, 13);
+            this.lblNomsMembresTeamA.TabIndex = 4;
+            this.lblNomsMembresTeamA.Text = "Grégoire PIAT, Florent FULMAR, Adrien LE TEXIER";
+            // 
+            // lblTitreAppli
+            // 
+            this.lblTitreAppli.AutoSize = true;
+            this.lblTitreAppli.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitreAppli.Location = new System.Drawing.Point(201, 35);
+            this.lblTitreAppli.Name = "lblTitreAppli";
+            this.lblTitreAppli.Size = new System.Drawing.Size(394, 33);
+            this.lblTitreAppli.TabIndex = 3;
+            this.lblTitreAppli.Text = "Back Office commercial GSB";
+            // 
+            // lblDescriptionAppli
+            // 
+            this.lblDescriptionAppli.AutoSize = true;
+            this.lblDescriptionAppli.Location = new System.Drawing.Point(6, 433);
+            this.lblDescriptionAppli.Name = "lblDescriptionAppli";
+            this.lblDescriptionAppli.Size = new System.Drawing.Size(465, 13);
+            this.lblDescriptionAppli.TabIndex = 2;
+            this.lblDescriptionAppli.Text = "Back office de gestion des commandes, des médicaments  et prospect/client du labo" +
+    "ratoire GSB.";
+            // 
+            // lblNomsTeam
+            // 
+            this.lblNomsTeam.AutoSize = true;
+            this.lblNomsTeam.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomsTeam.Location = new System.Drawing.Point(477, 438);
+            this.lblNomsTeam.Name = "lblNomsTeam";
+            this.lblNomsTeam.Size = new System.Drawing.Size(58, 13);
+            this.lblNomsTeam.TabIndex = 1;
+            this.lblNomsTeam.Text = "Team A :";
             // 
             // pictureBox1
             // 
@@ -1161,6 +1199,7 @@
             // 
             // grbCommandeAjoutProduit
             // 
+            this.grbCommandeAjoutProduit.Controls.Add(this.BtnSupProduitCommandeListe);
             this.grbCommandeAjoutProduit.Controls.Add(this.btnAjoutCommandeLigneProduit);
             this.grbCommandeAjoutProduit.Controls.Add(this.CbxProduitCommande);
             this.grbCommandeAjoutProduit.Controls.Add(this.label3);
@@ -1285,44 +1324,15 @@
             this.BtnAjoutCommande.UseVisualStyleBackColor = true;
             this.BtnAjoutCommande.Click += new System.EventHandler(this.BtnAjoutCommande_Click_1);
             // 
-            // lblNomsTeam
+            // BtnSupProduitCommandeListe
             // 
-            this.lblNomsTeam.AutoSize = true;
-            this.lblNomsTeam.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomsTeam.Location = new System.Drawing.Point(477, 438);
-            this.lblNomsTeam.Name = "lblNomsTeam";
-            this.lblNomsTeam.Size = new System.Drawing.Size(58, 13);
-            this.lblNomsTeam.TabIndex = 1;
-            this.lblNomsTeam.Text = "Team A :";
-            // 
-            // lblDescriptionAppli
-            // 
-            this.lblDescriptionAppli.AutoSize = true;
-            this.lblDescriptionAppli.Location = new System.Drawing.Point(6, 433);
-            this.lblDescriptionAppli.Name = "lblDescriptionAppli";
-            this.lblDescriptionAppli.Size = new System.Drawing.Size(133, 13);
-            this.lblDescriptionAppli.TabIndex = 2;
-            this.lblDescriptionAppli.Text = "Description de l\'application";
-            // 
-            // lblTitreAppli
-            // 
-            this.lblTitreAppli.AutoSize = true;
-            this.lblTitreAppli.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitreAppli.Location = new System.Drawing.Point(201, 35);
-            this.lblTitreAppli.Name = "lblTitreAppli";
-            this.lblTitreAppli.Size = new System.Drawing.Size(394, 33);
-            this.lblTitreAppli.TabIndex = 3;
-            this.lblTitreAppli.Text = "Back Office commercial GSB";
-            // 
-            // lblNomsMembresTeamA
-            // 
-            this.lblNomsMembresTeamA.AutoSize = true;
-            this.lblNomsMembresTeamA.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomsMembresTeamA.Location = new System.Drawing.Point(536, 438);
-            this.lblNomsMembresTeamA.Name = "lblNomsMembresTeamA";
-            this.lblNomsMembresTeamA.Size = new System.Drawing.Size(300, 13);
-            this.lblNomsMembresTeamA.TabIndex = 4;
-            this.lblNomsMembresTeamA.Text = "Grégoire PIAT, Florent FULMAR, Adrien LE TEXIER";
+            this.BtnSupProduitCommandeListe.Location = new System.Drawing.Point(354, 69);
+            this.BtnSupProduitCommandeListe.Name = "BtnSupProduitCommandeListe";
+            this.BtnSupProduitCommandeListe.Size = new System.Drawing.Size(75, 23);
+            this.BtnSupProduitCommandeListe.TabIndex = 19;
+            this.BtnSupProduitCommandeListe.Text = "button1";
+            this.BtnSupProduitCommandeListe.UseVisualStyleBackColor = true;
+            this.BtnSupProduitCommandeListe.Click += new System.EventHandler(this.BtnSupProduitCommandeListe_Click);
             // 
             // FormGsb
             // 
@@ -1371,7 +1381,6 @@
             this.grbCommandeAjoutProduit.PerformLayout();
             this.GrbCommandeAjout.ResumeLayout(false);
             this.GrbCommandeAjout.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1493,11 +1502,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn LesProduitsAjouterQuantite;
         private System.Windows.Forms.Label lblNumeroCommadeUtiliser;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.Label lblNomsMembresTeamA;
         private System.Windows.Forms.Label lblTitreAppli;
         private System.Windows.Forms.Label lblDescriptionAppli;
         private System.Windows.Forms.Label lblNomsTeam;
+        private System.Windows.Forms.Button BtnSupProduitCommandeListe;
     }
 }
 
