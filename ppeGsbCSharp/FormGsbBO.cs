@@ -14,7 +14,7 @@ namespace ppeGsbCSharp
     {
         List<Client> lesClients;
         // dans public partial class FormGsb : Form
-        List<Produit> lesProduits;
+        //List<Produit> lesProduits;
 
         public FormGsb()
         {
@@ -157,7 +157,7 @@ namespace ppeGsbCSharp
                 if (lesClients[i].Id == laCommande.getUnClientId())
                 {
                     Client leClient = lesClients[i];
-                    LblClientCommandeAffiche.Text = leClient.Nom.ToString() + leClient.Prenom.ToString();
+                    LblClientCommandeAffiche.Text = leClient.Nom.ToString() + " " + leClient.Prenom.ToString();
                 }
             }
         }
