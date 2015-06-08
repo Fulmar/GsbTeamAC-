@@ -66,3 +66,14 @@ E:\Cours\Machines et AUTRES\PPECloneGsbBO\gsbTeamAbackOffice\ppeGsbCSharp\obj\x8
 E:\Cours\Machines et AUTRES\PPECloneGsbBO\gsbTeamAbackOffice\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.Properties.Resources.resources
 E:\Cours\Machines et AUTRES\PPECloneGsbBO\gsbTeamAbackOffice\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.csproj.GenerateResource.Cache
 E:\Cours\Machines et AUTRES\PPECloneGsbBO\gsbTeamAbackOffice\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.csprojResolveAssemblyReference.cache
+C:\Users\Florent\Desktop\Travail\Tp programmation\GSB\ApplicationGSBGIT\GsbTeamAC-\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.exe
+C:\Users\Florent\Desktop\Travail\Tp programmation\GSB\ApplicationGSBGIT\GsbTeamAC-\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.pdb
+C:\Users\Florent\Desktop\Travail\Tp programmation\Projet C#\GsbTeamAC-\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.exe
+C:\Users\Florent\Desktop\Travail\Tp programmation\Projet C#\GsbTeamAC-\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.pdb
+C:\Users\Florent\Desktop\Travail\Tp programmation\Projet C#\GsbTeamAC-\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.csprojResolveAssemblyReference.cache
+C:\Users\Florent\Desktop\Travail\Tp programmation\Projet C#\GsbTeamAC-\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.formCreerClient.resources
+C:\Users\Florent\Desktop\Travail\Tp programmation\Projet C#\GsbTeamAC-\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.FormGsb.resources
+C:\Users\Florent\Desktop\Travail\Tp programmation\Projet C#\GsbTeamAC-\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.Properties.Resources.resources
+C:\Users\Florent\Desktop\Travail\Tp programmation\Projet C#\GsbTeamAC-\ppeGsbCSharp\obj\x86\Debug\ppeGsbCSharp.csproj.GenerateResource.Cache
+C:\Users\Florent\Desktop\Travail\Tp programmation\Projet C#\GsbTeamAC-\ppeGsbCSharp\bin\Debug\ppeGsbCSharp.exe
+C:\Users\Florent\Desktop\Travail\Tp programmation\Projet C#\GsbTeamAC-\ppeGsbCSharp\bin\Debug\ppeGsbCSharp.pdb
