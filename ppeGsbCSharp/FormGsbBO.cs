@@ -322,15 +322,8 @@ namespace ppeGsbCSharp
             if (DgvCommandeLesProduitAjouter.SelectedRows.Count == 1)
             {
                 DataGridViewRow row = DgvCommandeLesProduitAjouter.SelectedRows[0];
-
+                nouvelleLigne.RemoveAt(row.Index);
                 DgvCommandeLesProduitAjouter.Rows.Remove(row);
-                for (int j = 0; j < lesLigne.Count; j++)
-                {
-                    if (lesLigne[j].getNumCommande() == txtNumeroCommande.Text)
-                    {
-                        lesLigne[j].getleNumProduit().ToString().Remove(int.Parse(row.ToString()));
-                    }
-                }
             }
         }*/
         #endregion
